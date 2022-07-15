@@ -2,17 +2,18 @@
 public class Ejercicios_Entrada_de_Datos {
 
 	public static void main(String[] args) {
+		
+		
+		
 
-		/*Ejercicio  1
-		Realiza un programa que pida dos números y que luego muestre el resultado 
-		de su multiplicación.*/
+
 		
 		
+		
+		
+		
+
 		/*
-		Ejercicio  2
-		Realiza un conversor de euros a pesetas. La cantidad de euros que se quiere 
-		convertir debe ser introducida por teclado.
-		
 		
 		Ejercicio  3
 		Realiza un conversor de pesetas a euros. La cantidad de pesetas que se quiere 
