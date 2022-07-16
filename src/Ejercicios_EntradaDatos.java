@@ -5,9 +5,71 @@ public class Ejercicios_EntradaDatos {
 
 	public static void main(String[] args) {
 		
+		/*	Ejercicio  5
+		Escribe un programa que calcule el área de un rectángulo.
+			
+			Ejercicio  6
+		Escribe un programa que calcule el área de un triángulo.*/
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*		Ejercicio  4
+		Escribe un programa que sume, reste, multiplique y divida dos números 
+		introducidos por teclado.*//*
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Introduce un numero por teclado");
+		
+		Double numero1 = entrada.nextDouble();
+		
+		System.out.println("Introduce otro numero por teclado");
+		
+		Double numero2 = entrada.nextDouble();
+		
+		System.out.println("La suma de los numeros es :\t" + (long)(numero1 + numero2) + "\nLa resta de los numeros es:\t" 
+		+ (long)(numero1-numero2) + "\nLa multiplicacion de los numeros es:\t" + (long)(numero1 * numero2) + "\nLa division de los numeros es:\t"
+		+ (numero1/numero2));
+
+		*/
+		
+		
+		/* 		Ejercicio  3
+		Realiza un conversor de pesetas a euros. La cantidad de pesetas que se quiere 
+		convertir debe ser introducida por teclado. *//*
+		
+		Scanner entrada = new Scanner(System.in);
+				
+		System.out.println("Introduce las pesetas que quieres convertir a euros");
+		
+		int pesetas = entrada.nextInt();
+		
+		Double euro = 166.386;
+		
+		System.out.print( pesetas + " son :\t");
+		
+		System.out.printf("%1.2f", (pesetas / euro));
+
+		*/
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		/*		Ejercicio  2
 		Realiza un conversor de euros a pesetas. La cantidad de euros que se quiere 
-		convertir debe ser introducida por teclado.*/
+		convertir debe ser introducida por teclado.*//*
 		
 		Scanner entrada = new Scanner(System.in);
 		
@@ -21,13 +83,9 @@ public class Ejercicios_EntradaDatos {
 		
 		System.out.print(euro + " euros son: \t " + pesetas_redondeo + " pesetas.");
 
+		/*
 		
-		
-		
-		
-		
-		
-		
+				
 		/*		Ejercicio  1
 		Realiza un programa que pida dos números y que luego muestre el resultado 
 		de su multiplicación.*//*

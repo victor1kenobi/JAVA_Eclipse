@@ -4,34 +4,10 @@ public class Ejercicios_Entrada_de_Datos {
 	public static void main(String[] args) {
 		
 		
-		
-
-
-		
-		
-		
-		
-		
-
 		/*
 		
-		Ejercicio  3
-		Realiza un conversor de pesetas a euros. La cantidad de pesetas que se quiere 
-		convertir debe ser introducida por teclado.
-		
-		
-		Ejercicio  4
-		Escribe un programa que sume, reste, multiplique y divida dos números 
-		introducidos por teclado.
-		
-		
-		Ejercicio  5
-		Escribe un programa que calcule el área de un rectángulo.
-		
-		
-		
-		Ejercicio  6
-		Escribe un programa que calcule el área de un triángulo.
+
+
 		
 		
 		Ejercicio  7
