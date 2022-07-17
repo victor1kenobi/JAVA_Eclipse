@@ -20,6 +20,58 @@ public class Ejercicios_EntradaDatos {
 		
 		
 		
+		
+		
+		
+		
+		
+		
+		/*	Ejercicio  10
+		Realiza un conversor de Mb a Kb.
+			
+			Ejercicio  11
+		Realiza un conversor de Kb a Mb.*//*
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		String convertir = "";
+		
+		Double megabyte = 0.0;
+		
+		Double kilobyte = 0.0;
+
+		
+		do {
+			
+			System.out.println("Que tipo de dato deseas convertir (MB o KB) ¿?");
+			
+			convertir = entrada.nextLine();
+			
+		}while(convertir.equalsIgnoreCase("MB") == false && convertir.equalsIgnoreCase("KB") == false);
+		
+		if(convertir.equalsIgnoreCase("MB") == true) {
+			
+			System.out.println("Cuantos MB deseas convertir a KB ¿? ");
+
+			megabyte = entrada.nextDouble();
+			
+			System.out.println( megabyte + " megabytes son " + (megabyte * 1024) + " kilobytes ");
+
+			
+		}else {
+			
+			System.out.println("Cuantos KB deseas convertir a MB ¿? ");
+
+			kilobyte = entrada.nextDouble();
+			
+			System.out.println( kilobyte + " kilobytes son " + (kilobyte / 1024) + " megabytes ");
+		}
+		
+		
+		*/
+		
+		
+		
 		/*		Ejercicio  4
 		Escribe un programa que sume, reste, multiplique y divida dos números 
 		introducidos por teclado.*//*

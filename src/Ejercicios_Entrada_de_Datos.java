@@ -31,13 +31,7 @@ public class Ejercicios_Entrada_de_Datos {
 		
 		
 		
-		Ejercicio  10
-		Realiza un conversor de Mb a Kb.
-		
-		
-		
-		Ejercicio  11
-		Realiza un conversor de Kb a Mb.
+
 		
 		
 		
