@@ -5,11 +5,73 @@ public class Ejercicios_EntradaDatos {
 
 	public static void main(String[] args) {
 		
+		
+		/*	Ejercicio  7
+		Escribe un programa que calcule el total de una factura a partir de la base 
+		imponible.*/
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		/*	Ejercicio  5
 		Escribe un programa que calcule el área de un rectángulo.
 			
 			Ejercicio  6
 		Escribe un programa que calcule el área de un triángulo.*/
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		Double base;
+		
+		Double altura;
+		
+		System.out.println("Para el calculo de su area, introduce: \n1: Rectangulo \n2: Trianglo");
+		
+		int numero = entrada.nextInt();
+		
+		switch (numero) {
+		
+		case 1:
+			
+			System.out.println("Introduce la base");
+			
+			base = entrada.nextDouble();
+			
+			System.out.println("Introduce la altura");
+			
+			altura = entrada.nextDouble();
+			
+			System.out.println("El area del rectangulo es " + (base * altura));
+			
+			break;
+
+		case 2:
+			
+			System.out.println("Introduce la base");
+			
+			base = entrada.nextDouble();
+			
+			System.out.println("Introduce la altura");
+			
+			altura = entrada.nextDouble();
+			
+			System.out.println("El area del triangulo es " + (base * altura)/2);
+			
+			break;
+
+		default:
+			
+			System.out.println("No has seleccionado ninguna de las opciones");
+
+		
+		}
+		
+		
 		
 		
 		
